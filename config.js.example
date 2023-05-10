@@ -1,0 +1,18 @@
+{
+    "platform": "Cmd4",
+    "name": "Cmd4",
+    "accessories": [
+        {
+            "type": "Switch",
+            "name": "Tailscale funnel 443",
+            "displayName": "Tailscale funnel 443",
+            "on": "FALSE",
+            "polling": [
+                {
+                    "characteristic": "on"
+                }
+            ],
+            "state_cmd": "/var/lib/homebridge/cmd4/funnel443.py"
+        }
+    ]
+}
