@@ -1,1 +1,3 @@
 # tailscale-funnel_homebridge-cmd4
+
+Tailscale funnelでポートを開け閉めするのをhomebridgeで意味もなくやるやつです
