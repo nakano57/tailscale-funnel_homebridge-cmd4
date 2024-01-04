@@ -20,8 +20,10 @@ if sys.argv[1] == "Get":
 if sys.argv[1] == "Set":
     if sys.argv[3] == "On":
         if sys.argv[4] == "1":
-            subprocess.run(["sudo", "tailscale", "funnel", "443", "on"])
+            subprocess.run(["sudo", "tailscale", "serve", "-bg", "--https=443","off"])
+            subprocess.run(["sudo", "tailscale", "funnel", "-bg", "--https=443","80"])
             sys.exit(0)
         else:
-            subprocess.run(["sudo", "tailscale", "funnel", "443", "off"])
+            subprocess.run(["sudo", "tailscale", "funnel", "-bg", "--https=443","off"])
+            subprocess.run(["sudo", "tailscale", "serve", "-bg", "--https=443","80"])
             sys.exit(0)
