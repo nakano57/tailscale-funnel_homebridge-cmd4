@@ -7,3 +7,5 @@ Tailscale funnelでポートを開け閉めするのをhomebridgeで意味もな
 [ztalbot2000/homebridge-cmd4: CMD4 Plugin for Homebridge - Supports ~All Accessory Types & now all Characteristics too](https://github.com/ztalbot2000/homebridge-cmd4)
 
 homebridgeユーザーがsudo時にパスワードなしで行けるよう`visudo`する必要があったような気もする
+
+![](https://camo.githubusercontent.com/7f4d435f3b88a29efb9ac0e19c0b9d8a01d9767a48e14a4667f12b4d898e7ac3/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3333393638382f36376132616530332d636464332d323034642d623036362d3630313937616530656132632e6a706567)
